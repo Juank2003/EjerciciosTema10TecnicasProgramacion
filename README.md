@@ -32,16 +32,16 @@ Cuando se realiza una operación de este tipo, se genera una excepción de tipo 
 
 La calculadora debe tener esto en cuenta para evitar mostrar un resultado falso.
 
-a. Creación de una clase DesbordaCapacidadExcepcion
+- a. Creación de una clase DesbordaCapacidadExcepcion
 Esta clase se utiliza para representar una excepción controlada. El mensaje asociado es "El resultado desborda la capacidad de esta calculadora".
 
-b. Creación de la clase de utilidad Operacion
+- b. Creación de la clase de utilidad Operacion
 Esta clase contiene tres métodos para sumar, restar y multiplicar (no es necesario crear un método dividir, ya que la división de números enteros no se puede desbordar). Todos toman enteros como argumentos y devuelven un entero.
 
 Los tres generan excepciones del tipo DesbordaCapacidadException, en caso de que el cálculo provoque un desbordamiento de la capacidad de un entero de tipo int.
 
 Una manera fácil de probar si un cálculo con tipos int excede su capacidad, es realizar el cálculo con tipos long y verificar si los resultados son diferentes.
 
-c. Creación de la calculadora
+- c. Creación de la calculadora
 El programa debe manejar las excepciones causadas por la entrada incorrecta de un número entero, desbordamiento de capacidad durante una operación 
 o introducción de un valor y la división de un valor por cero.
