@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd5c9538-38bf-4d9d-a272-1efc57bc514b" name="Changes" comment="Raiz_cuadrada_terminado">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Calculadora/DesbrodaCapacidadExcepcion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fd5c9538-38bf-4d9d-a272-1efc57bc514b" name="Changes" comment="CreacionDesbordaCapacidadException">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Calculadora/Calculadora.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -37,7 +38,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -54,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679443894038</updated>
       <workItem from="1679443895458" duration="1783000" />
+      <workItem from="1679445823766" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="Raiz_cuadrada_terminado">
       <created>1679444819505</created>
@@ -62,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679444819505</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CreacionDesbordaCapacidadException">
+      <created>1679445937272</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679445937272</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Raiz_cuadrada_terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Raiz_cuadrada_terminado" />
+    <MESSAGE value="CreacionDesbordaCapacidadException" />
+    <option name="LAST_COMMIT_MESSAGE" value="CreacionDesbordaCapacidadException" />
   </component>
 </project>
