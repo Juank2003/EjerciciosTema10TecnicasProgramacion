@@ -24,4 +24,18 @@ public class UtilidadOperacion {
         }
         return (int)resultado;
     }
+
+    public static int divisionEntera(int a, int b) throws ArithmeticException {
+        if (b == 0) {
+            throw new ArithmeticException("No se puede dividir entre cero");
+        }
+        return a / b;
+    }
+
+    public static int divisionResto(int a, int b) throws ArithmeticException {
+        if (b == 0) {
+            throw new ArithmeticException("No se puede dividir entre cero");
+        }
+        return a % b;
+    }
 }
