@@ -1,6 +1,6 @@
 # EjerciciosTema10TecnicasProgramacion
 
-## Mi repositorio:
+## Mi repositorio: https://github.com/Juank2003/EjerciciosTema10TecnicasProgramacion.git
 
 ## 1. El cálculo de la raíz cuadrada
 Sea la función raizCuadrada() que calcula la raíz cuadrada del número que se pasa como argumento. 
